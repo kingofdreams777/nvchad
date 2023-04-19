@@ -6,7 +6,6 @@ local plugins =
       ensure_installed = {
         "vue-language-server",
         "tailwindcss-language-server",
-        "emmet-ls",
         "taplo",
       },
     },
