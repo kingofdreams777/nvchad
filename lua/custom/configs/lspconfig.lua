@@ -32,3 +32,9 @@ lspconfig.taplo.setup {
   capabilities = capabilities,
   filetypes = {"toml"},
 }
+
+lspconfig.tailwindcss.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {"vue"},
+}
