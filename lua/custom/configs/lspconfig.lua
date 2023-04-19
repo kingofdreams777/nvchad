@@ -26,3 +26,9 @@ lspconfig.emmet_ls.setup {
   capabilities = capabilities,
   filetypes = { "html" },
 }
+
+lspconfig.taplo.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {"toml"},
+}

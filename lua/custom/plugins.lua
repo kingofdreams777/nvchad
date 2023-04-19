@@ -1,10 +1,14 @@
-local plugins = {
-  "williamboman/mason.nvim",
-  opts = {
-    ensure_installed = {
-      "vue-language-server",
-      "tailwindcss-language-server",
-      "emmet-ls",
+local plugins =
+{
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "vue-language-server",
+        "tailwindcss-language-server",
+        "emmet-ls",
+        "taplo",
+      },
     },
   },
   {

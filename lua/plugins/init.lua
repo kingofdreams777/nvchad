@@ -1,5 +1,8 @@
 -- All plugins have lazy=true by default,to load a plugin on startup just lazy=false
 -- List of all default plugins & their definitions
+
+vim.opt.guicursor = ""
+vim.opt.relativenumber = true
 local default_plugins = {
 
   "nvim-lua/plenary.nvim",
