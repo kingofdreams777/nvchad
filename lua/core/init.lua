@@ -11,6 +11,8 @@ g.transparency = config.ui.transparency
 -------------------------------------- options ------------------------------------------
 opt.laststatus = 3 -- global statusline
 opt.showmode = false
+opt.hlsearch = false
+opt.incsearch = true
 
 opt.clipboard = "unnamedplus"
 opt.cursorline = true
