@@ -8,3 +8,21 @@ lspconfig.tsserver.setup {
   capabilities = capabilities,
   filetypes = { "typescript" },
 }
+
+lspconfig.eslint.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = { "javascript"},
+}
+
+lspconfig.volar.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = { "javascript", "typescript", "vue" },
+}
+
+lspconfig.emmet_ls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = { "html" },
+}
